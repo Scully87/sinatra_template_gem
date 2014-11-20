@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'sinatra_template'
+
+template = SinatraTemplate.new
+
+template.run_once
+template.instructions
