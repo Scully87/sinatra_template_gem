@@ -1,3 +1,3 @@
-module SinatraTemplate
-  VERSION = "0.0.1"
+class SinatraTemplate
+  VERSION = "0.0.2"
 end
