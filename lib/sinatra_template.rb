@@ -2,7 +2,7 @@ require_relative 'sinatra_template/version'
 
 class SinatraTemplate
   def run_once
-    system("git clone git@github.com:Scully87/Sinatra-Template.git")
+    system("git clone https://github.com/Scully87/Sinatra-Template.git")
   end
 
   def instructions
