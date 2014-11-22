@@ -1,6 +1,6 @@
 # SinatraTemplate
 
-A gem which provides a Sinatra App Template.
+A gem which provides a Sinatra App Template with CSS and JQuery.
 
 ## Installation
 
