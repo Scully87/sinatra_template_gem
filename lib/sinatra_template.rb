@@ -2,14 +2,16 @@ require_relative 'sinatra_template/version'
 
 class SinatraTemplate
   def run_once
-    system("git clone https://github.com/Scully87/Sinatra-Template.git")
+    system("git clone https://github.com/Scully87/Sinatra_Template.git")
   end
 
   def instructions
+    puts "Hello and thank you for Downloading"
     puts "Follow these instructions:"
-    puts "$ cd Sinatra-Template"
+    puts "$ cd Sinatra_Template"
     puts "$ bundle install"
     puts "$ rackup"
-    puts "Then open your browser and visit localhost:9292"
+    puts "Open browser to localhost address"
+    puts "Edit files accordingly"
   end
 end
