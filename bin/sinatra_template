@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'sinatra_template'
 
-template = SinatraTemplate.new
+template = SinatraTemplate.new(ARGV.first)
 
 template.run_once
 template.instructions
