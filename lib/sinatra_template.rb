@@ -4,7 +4,7 @@ class SinatraTemplate
 
   attr_reader :name
 
-  def initialise(name="Sinatra_Template")
+  def initialize(name="Sinatra_Template")
     @name = name
   end
 
