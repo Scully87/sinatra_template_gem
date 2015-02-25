@@ -12,7 +12,9 @@ Install the gem:
 
 Then in your command line run:
 
-    $ sinatra_template
+    $ sinatra_template [NAME_OF_YOUR_REPO_HERE]
+
+(Note: If you do not enter a name for your repo, the default name Sinatra_Template will be used)
 
 ## Contributing
 
@@ -21,3 +23,6 @@ Then in your command line run:
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Collaborators
+- @HatStephens - (http://www.github.com/HatStephens)
